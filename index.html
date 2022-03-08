@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Calcula Média de Notas</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+
+              <h5 class="card-title">Calcular Média</h5>
+
+              <!-- Nota N1 -->
+              <div class="mb-3">
+                <label for="notaN1" class="form-label">Nota N1</label>
+                <input type="number" class="form-control" id="notaN1" placeholder="Nota N1">
+              </div>
+
+              <!-- Nota N2 -->
+              <div class="mb-3">
+                <label for="notaN2" class="form-label">Nota N2</label>
+                <input type="number" class="form-control" id="notaN2" placeholder="Nota N2">
+              </div>
+
+              <!-- Nota N3 -->
+              <div class="mb-3">
+                <label for="notaN3" class="form-label">Nota N3</label>
+                <input type="number" class="form-control" id="notaN3" placeholder="Nota N3">
+              </div>
+
+              <button onClick="calcularMedia()" class="btn btn-primary">CALCULAR</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/calcularMedia.js"></script>
+
+</body>
+</html>
