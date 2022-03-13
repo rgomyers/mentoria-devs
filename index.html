@@ -10,36 +10,46 @@
 
 </head>
 <body>
-    <div class="container">
+  <div class="container">
+    <div class="row justify-content-center align-items-center vh-100">
+      <div class="col-auto">
         <div class="card" style="width: 18rem;">
-            <div class="card-body">
+          <div class="card-body">
 
-              <h5 class="card-title">Calcular Média</h5>
+            <h5 class="card-title">Calcular Média</h5>
 
               <!-- Nota N1 -->
-              <div class="mb-3">
-                <label for="notaN1" class="form-label">Nota N1</label>
-                <input type="number" class="form-control" id="notaN1" placeholder="Nota N1">
-              </div>
+            <div class="mb-3">
+                <label for="notaN1" class="form-label">Nota 1</label>
+                <input type="number" class="form-control" id="notaN1" placeholder="digite a primeira nota">
+            </div>
 
               <!-- Nota N2 -->
-              <div class="mb-3">
-                <label for="notaN2" class="form-label">Nota N2</label>
-                <input type="number" class="form-control" id="notaN2" placeholder="Nota N2">
-              </div>
+            <div class="mb-3">
+                <label for="notaN2" class="form-label">Nota 2</label>
+                <input type="number" class="form-control" id="notaN2" placeholder="digite a segunda nota">
+            </div>
 
               <!-- Nota N3 -->
-              <div class="mb-3">
-                <label for="notaN3" class="form-label">Nota N3</label>
-                <input type="number" class="form-control" id="notaN3" placeholder="Nota N3">
-              </div>
-
-              <button onClick="calcularMedia()" class="btn btn-primary">CALCULAR</button>
-
+            <div class="mb-3">
+                <label for="notaN3" class="form-label">Nota 3</label>
+                <input type="number" class="form-control" id="notaN3" placeholder="digite a terceira nota">
             </div>
-        </div>
-    </div>
 
+              <button type="button" name="botão id="idBotão" onclick="calcularMedia()" class="btn btn-primary">Calcular Média</button>
+              
+              <!-- Media -->
+            <div class="mb-3">
+                <label for="media" class="form-label">A média é:</label>
+                <input type="text" name="calcularMedia" id="media" class="form-control">
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>  
+    
+    
     <script src="js/calcularMedia.js"></script>
 
 </body>
